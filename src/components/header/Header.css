@@ -1,0 +1,48 @@
+* {
+  margin: auto;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+  height: 50px;
+}
+ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+.company-name {
+  font-size: 20px;
+  color: black;
+  margin-left: 35px;
+}
+nav {
+  margin-left: -534px;
+}
+header button {
+  margin-left: -493px;
+  width: 100px;
+  height: 35px;
+  border: 0;
+  border-radius: 5px;
+  background-color: rgb(55, 69, 255);
+  color: #fff;
+}
+.page-color {
+  background-color: #ffffff;
+  height: 350px;
+}
+.page-color.dark-mode {
+  background-color: #000000;
+  height: 351px;
+}
+.dark-text {
+  color: #fff;
+}
